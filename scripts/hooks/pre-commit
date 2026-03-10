@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+echo "pre-commit: checking formatting..."
+if ! scarb fmt --check 2>&1; then
+    echo ""
+    echo "ERROR: Cairo code is not formatted. Run 'scarb fmt' and re-commit."
+    exit 1
+fi
+
+echo "pre-commit: ok"
