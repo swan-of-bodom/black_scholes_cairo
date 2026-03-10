@@ -1,0 +1,20 @@
+[package]
+name = "black_scholes_cairo"
+version = "0.1.0"
+edition = "2024_07"
+description = "Black-Scholes option pricing and Greeks in Cairo fixed-point arithmetic"
+license = "MIT"
+repository = "https://github.com/swan-of-bodom/black_scholes_cairo"
+homepage = "https://github.com/swan-of-bodom/black_scholes_cairo"
+keywords = ["black-scholes", "options", "greeks", "fixed-point", "defi"]
+readme = "README.md"
+
+[dev-dependencies]
+snforge_std = "0.55.0"
+assert_macros = "2.15.0"
+
+[scripts]
+test = "snforge test"
+
+[tool.scarb]
+allow-prebuilt-plugins = ["snforge_std"]
