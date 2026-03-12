@@ -1,6 +1,10 @@
 # black_scholes_cairo
 
-Fixed-point Black-Scholes option pricing and Greeks in Cairo.
+> [!WARNING]
+Personal project to learn more about options and pricing as I work through academic slop.
+
+
+Fixed-point Black-Scholes option pricing and Greeks in Cairo. 
 
 ## Features
 
